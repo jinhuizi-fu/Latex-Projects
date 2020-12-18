@@ -1,0 +1,143 @@
+\documentclass[a4paper,10pt]{article}
+
+%-----------------------------------------------------------
+\usepackage[empty]{fullpage}
+\usepackage{color}
+\usepackage[urw-garamond]{mathdesign}
+\usepackage[T1]{fontenc}
+\definecolor{mygrey}{gray}{0.80}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0mm}
+
+% Adjust margins to 12.5mm on all sides
+\addtolength{\oddsidemargin}{-12.5mm}
+\addtolength{\evensidemargin}{-12.5mm}
+\addtolength{\textwidth}{25mm}
+\addtolength{\topmargin}{-12.5mm}
+\addtolength{\textheight}{25mm}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1\vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{172mm}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+
+\begin{tabular*}{180mm}{l@{\extracolsep{\fill}}r}
+\textbf   &   \\ {\Large Jinhuizi (Jeanne)Fu}
+  &    Email: jinhuizi.fu@gmail.com \\
+Phone: (860)920-2619  & https://www.linkedin.com/in/fujinhuizi\\
+\end{tabular*}
+\\
+
+
+
+% Section of Education
+\vspace{0.25mm}
+\resheading{Education}
+
+\begin{itemize}
+\item
+	\ressubheading{University of Connecticut}{Storrs, CT}{Master of Science in Statistics}{Aug 2012 - May 2014}
+	\begin{itemize}
+		\resitem{GPA: 3.78 / 4.00; GRE Quant: 167/170; GRE Verbal: 153/170}
+        \resitem{Relevant Coursework: Mathematical Statistics, Applied Statistics, Advanced Financial Mathematics, Statistical Computing, Design of Experiments, Linear Statistical Models, Investigation of Special Topics}
+    \end{itemize} 
+    
+\item    
+	\ressubheading{University of Liverpool}{Liverpool, UK}{Bachelor of Science in Mathematics with Finance}{Sep 2008 - Jun 2012}
+	\begin{itemize}
+		\resitem{Graduated with First Class Honours}
+        \resitem{Relevant Coursework: Mathematical Risk Theory, Applied Stochastic Models, Time Series Econometrics, Operations Research, Further Methods of Applied Mathematics, Principles of Economics, Securities Markets, Business Finance, Financial Computing, Financial Accounting, Managerial Accounting}      
+	\end{itemize}
+
+\end{itemize}
+
+
+% Section of Experiences
+\resheading{Experience}
+\begin{itemize}
+
+\item 
+	\ressubheading{Kylar}{St Louis, MO}{Market Researcher Intern}{Jul 2014 - Oct 2014}
+	\begin{itemize}
+		\resitem{Prepare marketing plan by researching the target group and analyzing technique such as PEST
+and SWOT analysis}
+		\resitem{Design questionnaires and conduct surveys to collect app user feedback. Analyzed data to identify user intent and pattern
+into reports to give manager strategic recommendations.  }
+		
+	\end{itemize}
+
+\item 
+	\ressubheading{China Construction Bank Corporation}{Tongling, China}{Credit Risk Analytic Intern}{Jun 2011 - Aug 2011}
+	\begin{itemize}
+		\resitem{Reviewed and analyzed income statements and balance sheets of middle market companies, and examined their historical trends on spreadsheets}
+		\resitem{Computed financial ratios of the clients and compared with industry data to form opinions on their solvency}
+	\end{itemize}
+
+
+\item
+	\ressubheading{Economic-Technological Investment \& Development Corp}{Tongling, China}{Accounting Intern}{Jun 2010 - Aug 2010}
+	\begin{itemize}
+		\resitem{Prepared financial statements by inputting source document data into accounting software system  }
+		\resitem{Balanced checkbook and managed document filing with an experienced accountant }	
+        
+	\end{itemize}
+
+
+
+\end{itemize}
+
+% Section of Projects
+
+\resheading{Course Projects}
+
+\begin{description}
+
+\item[Dynamic Replication (Nov 2013)] 
+Simulated an arbitrary number of Geometric Brownian Motion pathways to derive the value of European call options, then replicate the long call options by simulated trading the underlying using VBA. Plotted and identified pattern of the replicating error
+
+\item[Detection of Outliers and Influential Cases (May 2013)] 
+Investigated the methods and criterion of detecting outliers and influential cases within Multiple Linear Regression models through SAS and R. Drew conclusions on their influence after comparison and gave suggestions on treatment methods 
+
+\item[Comparison analysis between Maple and Modified Distribution (Jan 2012)] 
+Researched the simplex algorithms and compared the rules between two methods employed in solving transportation problem using pivot tables
+
+
+\item[Mathematical Contest in Modeling, COMAP (Feb 2010)] 
+Received an Honorable Mention while competing on a three-person team developing a mathematical model by putting abstract geographic positions into Cartesian coordinates. Located killer's home position as the spatial mean, and predicted next crime based on simplified Criminal Geographic Targeting formula. Generated random data and completed visualization using Matlab
+
+
+\end{description}
+
+
+% Section of Skills
+
+\resheading{Skills \& Certifications}
+
+\begin{description}
+
+\item[Technical:]
+SAS (base certified), R, VBA, MS Office (Word, Excel, PowerPoint), MS SQL Server, Qlik Sense, LaTeX
+\item[Certifications:]
+SAS Certified Base Programmer for SAS 9
+\item[Exam:]
+CFA Level II Exam Candidate
+\item[Languages:]
+Fluent in English, Chinese
+
+\end{description}
+
+
+
+
+
+\end{document}
